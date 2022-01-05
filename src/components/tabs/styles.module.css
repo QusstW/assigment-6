@@ -1,0 +1,26 @@
+.tabs {
+  background-color: #2d9cdb;
+  margin-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+}
+.tabs_item {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  flex-direction: column;
+  color: white;
+  height: 70px;
+  cursor: pointer;
+}
+.tabs_item:hover {
+  background-color: #2f80ed;
+  border-bottom: 8px solid #2f80ed;
+}
